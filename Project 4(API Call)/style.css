@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    border-radius: 1.5rem;
+    
+}
+button{
+    border-radius: 1.5rem;
+    color: rgb(206, 198, 198);
+    
+    background-color: black;
+}
+li{
+    list-style: none;
+}
+h3{
+    text-decoration:  underline rgb(0, 0, 0);
+
+
+}
+button:hover{
+    background-color: rgb(42, 43, 44);
+    color: white;
+}
