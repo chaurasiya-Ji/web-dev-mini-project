@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto+Mono:ital@1&display=swap');
+
+
+body {
+    text-align: center;
+font-family: 'Roboto Mono', monospace;
+background-color: #121212;
+}
+h1{
+    font-family:monospace;
+    color: white;
+}
+.con {
+    height: 21rem;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.btn {
+    width: 3rem;
+    height: 3rem;
+    border: 0 solid black;
+    border-radius: 50%;
+    margin: .2rem;
+    background-color: #232323;
+    color: white;
+    cursor: pointer;
+   
+}
+.display input{
+    width: 14rem;
+    height: 1.5rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background-color: white;
+    color: #232323;
+}
